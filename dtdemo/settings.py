@@ -37,8 +37,8 @@ SHARED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # locals
-    'client.apps.ClientConfig',
-    'sweet_shared.apps.SweetSharedConfig',
+    'client',
+    'sweet_shared',
     'rest_framework',
 ]
 TENANT_APPS = [
